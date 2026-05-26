@@ -1,0 +1,13 @@
+[project]
+name = "udacity-text-translation-sentiment"
+version = "0.1.0"
+description = "Text translation and sentiment analysis on movie reviews using HuggingFace transformers"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "pandas>=3.0.3",
+    "sacremoses>=0.1.1",
+    "sentencepiece>=0.2.1",
+    "torch>=2.12.0",
+    "transformers>=5.9.0",
+]
